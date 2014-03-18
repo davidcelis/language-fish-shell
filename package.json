@@ -2,7 +2,7 @@
   "name": "language-fish-shell",
   "version": "1.0.0",
   "description": "Snippets and syntax highlighting for Fish, the friendly interactive shell.",
-  "repository": "https://github.com/atom/language-fish-shell",
+  "repository": "https://github.com/davidcelis/language-fish-shell",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
