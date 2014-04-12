@@ -4,7 +4,7 @@
 'firstLineMatch': '^#!.*(fish)'
 'foldingStartMarker': '^\\s*(function|while|if|switch|for)\\s.*$'
 'foldingStopMarker': '^\\s*end\\s*$'
-'name': 'fish'
+'name': 'Shell Script (Fish)'
 'patterns': [
   {
     'begin': '"'
