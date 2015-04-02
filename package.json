@@ -1,6 +1,6 @@
 {
   "name": "language-fish-shell",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Snippets and syntax highlighting for Fish, the friendly interactive shell.",
   "repository": "https://github.com/davidcelis/language-fish-shell",
   "license": "MIT",
