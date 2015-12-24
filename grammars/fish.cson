@@ -99,7 +99,7 @@
   }
   {
     'comment': 'Builtin commands listed by builtin -n'
-    'match': '(?x)\\b(\n\t\t\t\\s\\.\\s|and|begin|bg|bind|block|break|breakpoint|builtin|case|cd|command|\n\t\t\tcommandline|complete|contains|continue|count|else|emit|end|exec|exit|\n\t\t\tfg|for|function|functions|if|jobs|not|or|random|read|return|set|\n\t\t\tstatus|switch|ulimit|while\n\t\t\t)\\b'
+    'match': '(?x)\\b(\n\t\t\t\\s\\.\\s|and|begin|bg|bind|block|break|breakpoint|builtin|case|cd|command|\n\t\t\tcommandline|complete|contains|continue|count|else|emit|end|exec|exit|\n\t\t\tfg|for|function|functions|if|jobs|not|or|random|read|return|set|\n\t\t\tsource|status|switch|ulimit|while\n\t\t\t)\\b'
     'name': 'support.function.builtin.fish'
   }
   {
