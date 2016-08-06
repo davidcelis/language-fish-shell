@@ -166,15 +166,15 @@
         'captures':
           '1':
             'name': 'punctuation.definition.variable.fish'
-        'match': '(\\$)(_|argv|history|HOME|PWD|status|USER)'
-        'name': 'variable.other.fixed.fish'
+        'match': '(\\$)_{2,}(fish|FISH)[a-zA-Z_][a-zA-Z0-9_]*'
+        'name': 'variable.other.fish.fish'
       }
       {
         'captures':
           '1':
             'name': 'punctuation.definition.variable.fish'
-        'match': '(\\$)__(fish|FISH)[a-zA-Z_][a-zA-Z0-9_]*'
-        'name': 'variable.other.fish.fish'
+        'match': '(\\$)(_|argv|history|HOME|PWD|status|USER)'
+        'name': 'variable.other.fixed.fish'
       }
       {
         'captures':
