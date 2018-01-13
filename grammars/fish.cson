@@ -40,14 +40,11 @@
     'name': 'string.quoted.single.fish'
     'patterns': [
       {
-        'match': '\\\\\'|\\\\'
+        'match': '\\\\\'|\\\\\\\\'
         'name': 'constant.character.escape.fish'
       }
       {
         'include': '#variable'
-      }
-      {
-        'include': '#escape'
       }
     ]
   }
