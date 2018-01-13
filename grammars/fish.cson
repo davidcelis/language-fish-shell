@@ -43,9 +43,6 @@
         'match': '\\\\\'|\\\\\\\\'
         'name': 'constant.character.escape.fish'
       }
-      {
-        'include': '#variable'
-      }
     ]
   }
   {
