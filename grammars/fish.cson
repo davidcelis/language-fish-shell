@@ -40,14 +40,8 @@
     'name': 'string.quoted.single.fish'
     'patterns': [
       {
-        'match': '\\\\\'|\\\\'
+        'match': '\\\\\'|\\\\\\\\'
         'name': 'constant.character.escape.fish'
-      }
-      {
-        'include': '#variable'
-      }
-      {
-        'include': '#escape'
       }
     ]
   }
@@ -88,7 +82,7 @@
   {
     'captures':
       '1':
-        'name': 'string.other.option.fish'
+        'name': 'constant.other.option.fish'
     'comment': 'Command short/long options'
     'match': '\\s(-{1,2}[a-zA-Z_\\-0-9]+|-\\w)\\b'
   }
@@ -119,7 +113,7 @@
     'patterns': [
       {
         'comment': 'Single character character escape sequences'
-        'match': '\\\\(a|b|e|f|n|r|t|v|\\s|\\$|\\\\|\\*|\\?|~|\\%|#|(|)|{|}|\\[|\\]|<|>|\\^)'
+        'match': '\\\\(a|b|e|f|n|r|t|v|\\s|\\$|\\\\|\\*|\\?|~|\\%|#|\\(|\\)|{|}|\\[|\\]|<|>|\\^|\'|")'
         'name': 'constant.character.escape.single.fish'
       }
       {
