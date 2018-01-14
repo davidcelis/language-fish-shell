@@ -113,7 +113,7 @@
     'patterns': [
       {
         'comment': 'Single character character escape sequences'
-        'match': '\\\\(a|b|e|f|n|r|t|v|\\s|\\$|\\\\|\\*|\\?|~|\\%|#|(|)|{|}|\\[|\\]|<|>|\\^)'
+        'match': '\\\\(a|b|e|f|n|r|t|v|\\s|\\$|\\\\|\\*|\\?|~|\\%|#|\\(|\\)|{|}|\\[|\\]|<|>|\\^|\'|")'
         'name': 'constant.character.escape.single.fish'
       }
       {
